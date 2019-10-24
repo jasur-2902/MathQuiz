@@ -1,0 +1,11 @@
+
+/* General styles */
+body
+{
+    /* Changing font style, size and bg color */
+    font-family: Arial;
+    font-size:1.1em;
+    text-align:center;
+    background-color:#001a4d;
+    color: #80aaff;
+}

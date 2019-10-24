@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE tag is identify that this document is html -->
+<!DOCTYPE html>
+
+<!-- This tag says here's our code starts -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Linking the styles  -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <!-- Connecting JS to HTML -->
+    <script src="script.js"></script>
+
+    <!-- Header -->
+    <h1>Math Quiz</h1>
+
+    <form>
+
+      <!-- Radio buttons the first one is checked by default -->
+      <input id="easy" type="radio" name="math" value="male" checked> Easy<br>
+      <input id="medium" type="radio" name="math" value="female"> Medium<br>
+      <input id="hard" type="radio" name="math" value="female"> Hard<br>
+
+      <!-- Button to generate project -->
+      <button id="generate" type="button" onclick="start();" name="button">Generate Question</button>
+
+      <!-- Quiz question -->
+      <h3 id="quiz_question"></h3>
+      <input id="quiz_solution" type="text" name="quiz" value=""></br>
+
+      <!-- Button check the answer -->
+      <button id="check" type="button" onclick="checkAnswer();" name="button">Submit</button>
+      <h3 id="quiz_result"></h3>
+
+
+
+    </form>
+
+  </body>
+</html>
